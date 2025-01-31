@@ -26,3 +26,16 @@ function renderTasks() {
 }
 
 addTaskBtn.addEventListener('click', addTask);
+
+// Task management
+function toggleTask(index) {
+    tasks[index].completed = !tasks[index].completed;
+    renderTasks();
+}
+
+function deleteTask(index) {
+    tasks.splice(index, 1);
+    renderTasks();
+}
+
+// New feature added
