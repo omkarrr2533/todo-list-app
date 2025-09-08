@@ -47,3 +47,14 @@ function deleteTask(index) {
 // Code improvement
 
 // Update: 2025-07-16
+
+// Task management
+function toggleTask(index) {
+    tasks[index].completed = !tasks[index].completed;
+    renderTasks();
+}
+
+function deleteTask(index) {
+    tasks.splice(index, 1);
+    renderTasks();
+}
