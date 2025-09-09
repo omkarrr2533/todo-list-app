@@ -60,3 +60,5 @@ function deleteTask(index) {
 }
 
 // Code improvement
+
+// New feature added
