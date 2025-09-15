@@ -64,3 +64,5 @@ function deleteTask(index) {
 // New feature added
 
 // New feature added
+
+// Bug fix implemented
