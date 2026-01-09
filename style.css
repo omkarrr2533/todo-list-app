@@ -1,0 +1,28 @@
+/* Todo List Styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#new-task {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#add-task {
+    padding: 8px 16px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
